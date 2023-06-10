@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background: url(bluee.png) no-repeat;
+    background-size: cover;
+    height: 115vh;
+    width: 100%;
+    
+    
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.nav_links{
+    background-color: rgba(146, 146, 146, 0);
+    color: rgb(42, 157, 252);
+    border-width: 0px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    margin-left: 0px; 
+}
+.nav_links:hover{
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.nav_links1{
+    background-color: rgba(146, 146, 146, 0);
+    color: rgb(42, 157, 252);
+    border-width: 0px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    margin-left: 0px;
+    
+    
+}
+.nav_links1:hover{
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.nav_right{
+    margin-right: 100px;
+    margin-top: 30px
+}
+
+.login{
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    border-width: 0;
+    color: rgb(139, 64, 208);
+
+}
+.login:hover{
+    background-color: rgba(192, 192, 192, 0.959);
+    transition: 0.2s ease-in-out;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+.man_with_box{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: 170px;
+    margin-top: 60px;
+}
+.clouds{
+    position: absolute;
+    top: 300px;
+}
+.man{
+    position: absolute;
+    bottom: 10px;
+}
+.first_text{
+    position: relative;
+    top:150px;
+    left: 110px; 
+}
+.first_text h1{
+    font-size: 65px;
+    color: rgb(98, 98, 98);
+}
+span{
+    color: rgb(197, 23, 224);
+}
+.first_text p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(98, 98, 98);
+    margin-left: 10px; 
+    margin-top: 15px;    
+}
+.section2{
+    height: 700px;
+    color: blanchedalmond;
+}
+.section2{
+    position: absolute;
+    top: 520px;
+    right: 350px;
+    z-index: -1;
+}
+.section3{
+    background: url(road.png) no-repeat center;
+    background-size: 1000px;
+    color: rgb(98, 98, 98);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -210px;
+    padding-bottom:300px;
+    
+}
+.section3_left{
+    position:relative;
+     width: 480px;
+    height: 700px;
+}
+.bike{
+    position: relative;
+    top: 164px;
+    left: 110px;
+}
+.section3_left h1{
+    position:absolute;
+    top: 370px;
+    left: 120px;
+}
+.section3_left p{
+    position:absolute;
+    top: 400px;
+    left: 90px;
+    text-align-last: center;
+}
+.section3_middle{
+    width: 480px;
+    height: 700px;
+    padding-top: 150px;
+}
+.section3_right{
+    position: relative;
+    width: 480px;
+    height: 700px;
+}
+.discount{
+    position: relative;
+    top: 580px;
+    left: -50px;
+}
+.time{
+    position: relative;
+    top: 280px;
+    left: 120px;
+}
+.section3_middle h1{
+    position: relative;
+    top: 290px;
+    left: 140px;
+}
+.section3_middle p{
+    position: relative;
+    top: 295px;
+    text-align-last: center;
+}
+.section3_right h1{
+    position: absolute;
+    top: 500px;
+}
+.discount{
+    position: relative;
+    top: 700px;
+}
+.section3_right h1{
+    position: absolute;
+    top: 885px;
+    left: 60px;
+    
+    
+}
+.section3_right p{
+    position: relative;
+    top: 740px;
+    text-align-last: center;
+    right: 130px;
+}
+.landing{
+    position: relative;
+}
+.landing img{
+    position: absolute;
+    top: 420px;
+    left: 80px;
+    
+
+}
+.landing h1{
+    position: absolute;
+    top: 600px;
+    right: 100px;
+    left: 150px;
+    font-size: 40px;
+    color: white;
+ 
+}
+.landing p{
+    position: absolute;
+    top: 580px;
+    left: 150px;
+    color: white;
+    font-size: 20px ;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.section4_middle{
+    position: relative;
+}
+.section4_middle h1{
+    position: absolute;
+    left: 180px;
+    top:450px;
+    color: rgb(98, 98, 98);
+}
+.section4_middle p{
+    position: absolute;
+    left: 220px;
+    top:480px;
+    color: rgb(98, 98, 98);
+    text-align-last: center;
+}
+.section4 i{
+    margin: 0 20px 0 20px;
+}
+.section5{
+    position: relative;
+}
+.section5 .div{
+    display: flex;
+    justify-content: space-between;
+    background: url(section5.png) no-repeat;
+    background-size:cover; 
+    height: 100vh;
+    width: 100%;
+    position:absolute;
+    top: -100px;
+}
+.people{
+    position: relative;
+    top: 345px;
+    right: 120px;
+    
+} 
+.div22{
+    position: relative;
+    top: 550px;
+    left: 100px;
+}
+.div33{
+    display: flex;
+    margin-bottom: 20px;
+}
+.div33 div{
+    margin-right: 15px;
+}
+.store{
+    background-color: rgb(255, 250, 250);
+    color: rgb(161, 42, 252);
+    border-width: 0px;
+    border-radius: 12px;
+    padding: 15px 10px 15px 50px;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.img3{
+    margin-right:15px;
+}
+.apple_store{
+    position: relative;
+}
+.img5{
+    position: absolute;
+    right: 80px;
+    top: 6px;
+}
+.gogle_play{
+    position: relative;
+}
+.img6{
+    position: absolute;
+    right: 180px;
+    top: 8px;
+}
+.bottom_links{
+    margin-top: 15px;
+}
+.bt_link{
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 5px 10px 5px 10px ;
+    border-radius: 20px;
+    border-width:0;
+    color: white;
+}
+.bt_link:hover{
+    background-color: rgba(189, 68, 233, 0.84);
+    transition: 0.2s ease-in-out;
+}

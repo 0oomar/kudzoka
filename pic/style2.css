@@ -1,0 +1,10 @@
+.margin{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background: url(blue_bg.png);
+    background-size: cover;
+    height: 700px;
+}
